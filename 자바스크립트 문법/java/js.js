@@ -41,3 +41,26 @@ let text4 = `hello${num}`
 
 console.log(text1, text2, text3)
 console.log(text4)
+
+
+// 형변환 //
+console.log(Number('0'));
+console.log(Number('1222'));
+
+// Not a Number
+console.log(Number('Hello'));
+console.log(Number('Hello1222'));
+
+// Boolean
+console.log(Number(true));
+// true는 숫자 1을 반환
+console.log(Number(false));
+// false는 숫자 0을 반환
+
+// 1. 정수(integer) int : 자연수와 0, 자연수에 마이너를 붙인 숫자
+// 2. 실수(real number) float이라는 명령어로 사용 floating point(부동 소수점) : 소수점이 있는 숫자
+
+// 정수 변환 : parseInt
+console.log(parseInt(123.123344));
+console.log(parseInt('123.123344'));
+console.log(parseInt('sdsdsd'));
