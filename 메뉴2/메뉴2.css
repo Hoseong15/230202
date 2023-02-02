@@ -35,7 +35,7 @@ label div{
   background-color: #FFF;
   margin-bottom: 12px;
   border-radius: 5px;
-  transition: transform 800ms ease-in-out;
+  transition: transform 10000ms ease-in-out;
 }
 
 #checkbox-btn:checked + label::before{background-color: deepskyblue;}
@@ -44,8 +44,8 @@ label div{
 
 /* css 형제 선택자 + */
 
-#checkbox-btn:checked +label div:first-child{transform: translateY(24px) rotate(405deg);}
+#checkbox-btn:checked +label div:first-child{transform: translateY(24px) rotate(7245deg);}
 
-#checkbox-btn:checked +label div:nth-child(2){transform: rotate(-405deg);}
+#checkbox-btn:checked +label div:nth-child(2){transform: rotate(-7245deg);}
 
 #checkbox-btn:checked +label div:last-child{transform:scale(0);}
