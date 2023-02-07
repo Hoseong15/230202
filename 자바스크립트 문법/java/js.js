@@ -401,3 +401,55 @@ for(let i = 1; i <= 100; i++) {
   // 조건식이 만족할 때 까지 ++로 값이 증감되면서 반복 실행
 }
 console.log(zero);
+
+// 1부터 100까지 숫자 중에 짝수만 html 출력
+
+for(let i=1; i<=100; i++) {
+  if(i%2 == 0) {
+    // document.write(i,'<br>');
+    // document.write(`<p>${i}</p>`);
+  }
+}
+
+// 이중 for문
+for(let i = 0; i < 3; i++) {
+  for(let j = 0; j < 3; j++) {
+    // document.write(`${i} + ${j} = ${i + j}<br>`) ;
+  }
+}
+
+for(let i = 2; i <= 9; i++) {
+  for(let j = 1; j <= 9; j++) {
+    // document.write(`${i} * ${j} = ${i * j} <br>`)
+  }
+}
+
+
+// 이중 for문 별 찍기
+// for(let i = 0; i < 5; i++) {
+//   for(let j = 0; j<= i; j++) {
+//     document.write('*')
+//   }
+//     document.write('<br>')
+// }
+
+
+// 이중 for문 별 찍기(2개 증가)
+for(let i = 0; i < 5; i++) {
+  for(let j = 0; j<= i * 2; j++) {
+    document.write('*')
+  }
+    document.write('<br>')
+}
+
+
+// 이중 for문 별 찍기(5 -> 1 감소)
+for(let i = 0; i < 5; i++) {
+  for(let j = 5; j > i; j--) {
+    document.write('*')
+  }
+    document.write('<br>')
+}
+
+
+
